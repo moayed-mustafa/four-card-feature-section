@@ -1,0 +1,81 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid black 1px;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.text-container {
+  border: solid black 1px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.boxes-container {
+  display: flex;
+  border: solid black 1px;
+  margin-bottom: 10px;
+  padding: 5px;
+  justify-content: center;
+  align-items: space-between;
+  position: relative;
+  width: 100%;
+}
+.box {
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 10px;
+  position: relative;
+  margin: 5px;
+  width: 25%;
+}
+.icon {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.paragraphs {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+#right-box {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  border: red solid 1px;
+}
+#left-box {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  border: green solid 1px;
+}
+#top-box {
+  right: 0;
+  border: purple solid 1px;
+  width: 50%;
+}
+#bottom-box {
+  right: 0;
+  border: blue solid 1px;
+  width: 50%;
+}
+#center-boxes {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* I need a class for all boxes */
+/* I need each box to take 25% of it's component */
+/*  I need each box to display flex column, position relative and have the icon be absolute and close to the edge  */
